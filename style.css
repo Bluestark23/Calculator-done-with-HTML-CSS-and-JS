@@ -1,0 +1,59 @@
+body{
+  background-color: goldenrod;
+  
+}
+*{
+  justify-content: center;
+  align-items: center;
+
+}
+header{
+  display: flex;
+ } 
+
+
+.flex_container{
+  border: 1px solid black;
+  background: #ccc ;
+  padding: 10px;
+  display: flex;/*define un contenedor como un contenedor flex.*/
+  flex-flow:row wrap;/*funciona todo como un row y un wrap*/
+  /*flex-direction: row;se especifica si sera una fila o columna*/
+  /*flex-wrap:wrap ;para que no se quede en solo una columna*/
+  justify-content:left;
+  width: 20%;/*Tamaño de la caja gris*/
+  margin: 0 auto;
+  justify-content: center;
+
+}
+
+.enter_data{
+  border: 1px solid rgb(54, 51, 51);
+  background-color: antiquewhite;
+  color:black;
+  width: 180px;
+  line-height: 100px;/*largo de la caja*/
+  padding: 5px;
+  text-align: center;/*alieacion*/
+}
+#enter{
+  text-align: right;
+  padding: 5px 5px;
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.caja{
+  border: 1px solid rgb(70,69,69) ;/*color y rosor del borde*/
+  background-color: white;/*fondo de la caja*/
+  color: black; /*color de la letra*/
+  font-family: 'Courier New', Courier, monospace;/*property specifies a prioritized list of one or more font family names and/or generic family names for the selected element.
+  Try it*/
+  font-weight: bold;/*especifica el peso o grueso de la letra.*/
+  width:40px;/*ancho de la caja*/
+  height: 20px;
+  line-height: 10px;/*largo de la caja*/
+  text-align: center;/*alieacion*/
+  margin: 5px;
+  padding: 6px;
+}
